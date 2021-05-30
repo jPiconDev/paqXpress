@@ -4,13 +4,12 @@ public class EnReparto implements EstadoPq{
 
     @Override
     public void avanza(Paquete paquete) {
-        Entregado entregado = new Entregado();
-        paquete.setEstado(entregado);        
+        paquete.setEstado(new Entregado());        
     }
 
     @Override
     public String informaEstado() {
-        return "en reparto";
+        return "Paquete en reparto";
     }
     
 }

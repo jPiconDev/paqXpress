@@ -9,7 +9,7 @@ public class Entregado implements EstadoPq{
 
     @Override
     public String informaEstado() {
-        return "entregado";
+        return "El paquete ya ha sido entregado";
     }
     
 }

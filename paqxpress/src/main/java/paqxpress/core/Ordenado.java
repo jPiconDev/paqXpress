@@ -4,13 +4,11 @@ public class Ordenado implements EstadoPq {
 
     @Override
     public void avanza(Paquete paquete) {
-        EnProceso enProceso = new EnProceso();
-        paquete.setEstado(enProceso);
+        paquete.setEstado(new EnProceso());
     }
 
     @Override
     public String informaEstado() {
-        return "ordenado";
+        return "Envío ordenado pero el paquete aún no ha sido recogido";
     }
-    
 }

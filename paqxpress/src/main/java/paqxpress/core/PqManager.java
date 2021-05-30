@@ -10,22 +10,18 @@ import java.util.TreeMap;
  *
  */
 public class PqManager {
+    
+    private List<Cliente> clientes = new ArrayList<>(){};
+    private Map<Integer, Paquete> paquetes = new TreeMap<>(){};
+    private static int idNumber = 1000;
 
-    // Descomentar para NO testing:
-    // private List<Cliente> clientes = new ArrayList<>(){};
-    // private Map<Integer, Paquete> paquetes = new TreeMap<>(){};
+    public static int getIdNumber() {
+        return idNumber;
+    }
 
-    //Apartado para testing
-    Cliente a1 = new Cliente("A11222333", "Comercial Pepe");
-    Cliente a2 = new Cliente("B22333444", "Distribuciones Lolo");
-    Cliente a3 = new Cliente("C33444555", "Talleres Louzan");
-    private List<Cliente> clientes = new ArrayList<>(){{ add(a1); add(a2); add(a3); }};
-    private Map<Integer, Paquete> paquetes = new TreeMap<>(){{
-        put(1001, new Paquete(a1, "Talleres Pedro", "Avda. Camiño Francés, s/n"));
-        put(1001, new Paquete(a2, "El Descanso", "Avda. De Lugo, s/n"));
-        put(1001, new Paquete(a2, "Comercial Lata", "Polígono del Tambre, s/n"));
-    }};
-    //Apartado para testing
+    public static void setIdNumber() {
+        idNumber++;
+    }
 
 
     public void altaCliente(String idCli, String nombre) {
@@ -35,6 +31,14 @@ public class PqManager {
     public List<Cliente> listaClientes() {
         return clientes;
     }
+
+    public Map<String, String> mapClientes() {
+        Map<String, String> map = new TreeMap<>();
+        for (Cliente cliente : clientes) {
+            map.put(cliente.getIdCli(), cliente.getNombre());
+        }
+        return map;
+    } 
 
     public int altaEnvio(Cliente cliente, String destinatario, String destino) {
         Paquete nuevoEnvio = new Paquete(cliente, destinatario, destino);
@@ -49,8 +53,10 @@ public class PqManager {
     public List<Paquete> listaReparto() {
         List<Paquete> listaReparto = new ArrayList<Paquete>(){};
         for (Paquete  paquete: paquetes.values()) {
-            if(paquete.informaEstado() == "en reparto");
+            if(paquete.getEstado() instanceof EnReparto);
             listaReparto.add(paquete);
+            if(paquete.getEstado() instanceof Entregado);
+            listaReparto.remove(paquete);
         }
         return listaReparto;
     }
@@ -62,5 +68,9 @@ public class PqManager {
             listaEnviosCliente.add(envioCli);
         }
         return listaEnviosCliente;
+    }
+
+    public Map<Integer, Paquete> getPaquetes() {
+        return this.paquetes;
     }
 }

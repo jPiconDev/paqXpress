@@ -4,13 +4,12 @@ public class EnProceso implements EstadoPq{
 
     @Override
     public void avanza(Paquete paquete) {
-        Enviado enviado = new Enviado();
-        paquete.setEstado(enviado);
+        paquete.setEstado(new Enviado());
     }
 
     @Override
     public String informaEstado() {
-        return "en proceso";
+        return "Paquete recogido y en proceso de envío.";
     }
     
 }
