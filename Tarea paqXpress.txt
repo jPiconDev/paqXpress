@@ -1,0 +1,19 @@
+Tarea paqXpress
+
+El enunciado de la tarea se encuentra en el archivo adjunto
+
+Deberás entregar un único archivo .zip (apellido1_apellido2_nombre_tarea_rec.zip) que incluirá los archivos fuente de la aplicación (podéis entregar directamente el código fuente o, si preferís, el proyecto completo de Netbeans)
+
+NOTAS:
+
+(†)
+
+Los atributos clientes y paquetes de la clase PqManager están definidos en el enunciado como una lista y un mapa. Se podrían implementar empleando arrays pero es mucho más sencillo utilizar las clases del JFC
+
+(††)
+
+Para la fecha de alta de Paquete podéis emplear java.time.LocalDateTime. Dispone de métodos que nos proporcionan la fecha/hora actual
+
+(†††)
+
+El id del Paquete debe generarse automáticamente al crear un nuevo paquete. Lo mejor es emplear un atributo estático

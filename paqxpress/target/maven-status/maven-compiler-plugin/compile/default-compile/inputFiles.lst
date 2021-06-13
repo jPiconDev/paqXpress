@@ -1,10 +1,10 @@
-/home/jorge/ALMACEN/JORGE_64GB/a18jorgepr1/DAW/DAW_3/PROG20/Temas/U08. Estructuras de Datos II/Tareas hechas/pruebas/Tarea paqXpress/paqxpress/src/main/java/paqxpress/core/Ordenado.java
-/home/jorge/ALMACEN/JORGE_64GB/a18jorgepr1/DAW/DAW_3/PROG20/Temas/U08. Estructuras de Datos II/Tareas hechas/pruebas/Tarea paqXpress/paqxpress/src/main/java/paqxpress/core/EstadoPq.java
-/home/jorge/ALMACEN/JORGE_64GB/a18jorgepr1/DAW/DAW_3/PROG20/Temas/U08. Estructuras de Datos II/Tareas hechas/pruebas/Tarea paqXpress/paqxpress/src/main/java/paqxpress/core/Entregado.java
-/home/jorge/ALMACEN/JORGE_64GB/a18jorgepr1/DAW/DAW_3/PROG20/Temas/U08. Estructuras de Datos II/Tareas hechas/pruebas/Tarea paqXpress/paqxpress/src/main/java/paqxpress/core/PqManager.java
-/home/jorge/ALMACEN/JORGE_64GB/a18jorgepr1/DAW/DAW_3/PROG20/Temas/U08. Estructuras de Datos II/Tareas hechas/pruebas/Tarea paqXpress/paqxpress/src/main/java/paqxpress/test/ConsoleApp.java
-/home/jorge/ALMACEN/JORGE_64GB/a18jorgepr1/DAW/DAW_3/PROG20/Temas/U08. Estructuras de Datos II/Tareas hechas/pruebas/Tarea paqXpress/paqxpress/src/main/java/paqxpress/core/Enviado.java
-/home/jorge/ALMACEN/JORGE_64GB/a18jorgepr1/DAW/DAW_3/PROG20/Temas/U08. Estructuras de Datos II/Tareas hechas/pruebas/Tarea paqXpress/paqxpress/src/main/java/paqxpress/core/Cliente.java
-/home/jorge/ALMACEN/JORGE_64GB/a18jorgepr1/DAW/DAW_3/PROG20/Temas/U08. Estructuras de Datos II/Tareas hechas/pruebas/Tarea paqXpress/paqxpress/src/main/java/paqxpress/core/EnReparto.java
-/home/jorge/ALMACEN/JORGE_64GB/a18jorgepr1/DAW/DAW_3/PROG20/Temas/U08. Estructuras de Datos II/Tareas hechas/pruebas/Tarea paqXpress/paqxpress/src/main/java/paqxpress/core/Paquete.java
-/home/jorge/ALMACEN/JORGE_64GB/a18jorgepr1/DAW/DAW_3/PROG20/Temas/U08. Estructuras de Datos II/Tareas hechas/pruebas/Tarea paqXpress/paqxpress/src/main/java/paqxpress/core/EnProceso.java
+/home/jorge/Escritorio/Tarea_paqXpress/paqxpress/src/main/java/paqxpress/core/EnProceso.java
+/home/jorge/Escritorio/Tarea_paqXpress/paqxpress/src/main/java/paqxpress/test/ConsoleApp.java
+/home/jorge/Escritorio/Tarea_paqXpress/paqxpress/src/main/java/paqxpress/core/PqManager.java
+/home/jorge/Escritorio/Tarea_paqXpress/paqxpress/src/main/java/paqxpress/core/Cliente.java
+/home/jorge/Escritorio/Tarea_paqXpress/paqxpress/src/main/java/paqxpress/core/Enviado.java
+/home/jorge/Escritorio/Tarea_paqXpress/paqxpress/src/main/java/paqxpress/core/Ordenado.java
+/home/jorge/Escritorio/Tarea_paqXpress/paqxpress/src/main/java/paqxpress/core/EnReparto.java
+/home/jorge/Escritorio/Tarea_paqXpress/paqxpress/src/main/java/paqxpress/core/Paquete.java
+/home/jorge/Escritorio/Tarea_paqXpress/paqxpress/src/main/java/paqxpress/core/EstadoPq.java
+/home/jorge/Escritorio/Tarea_paqXpress/paqxpress/src/main/java/paqxpress/core/Entregado.java
